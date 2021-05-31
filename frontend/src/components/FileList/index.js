@@ -30,7 +30,7 @@ function FileList({files, onDelete}) {
                             path: { stroke: '#7159c1' }
                         }}
                         strokeWidth={10}
-                        value={uploadedFile.progress}
+                        percentage={uploadedFile.progress}
                         />
                     )}
                     
